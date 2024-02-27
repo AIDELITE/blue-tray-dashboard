@@ -30,7 +30,7 @@ const customers = [
   },
   {
     id: '50ca3e18-62cd-11ee-8c99-0242ac120002',
-    name: 'Steven Tey',
+    name: 'Steven Teys',
     email: 'steven@tey.com',
     image_url: '/customers/steven-tey.png',
   },
@@ -70,6 +70,12 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: '13D07535-C59E-4157-A011-F8D2ETYES0CBB',
+    name: 'Bal Orpan',
+    email: 'palazs@orban.com',
+    image_url: '/customers/balazs-orban.png',
+  },
 ];
 
 const invoices = [
@@ -99,7 +105,7 @@ const invoices = [
   },
   {
     customer_id: customers[5].id,
-    amount: 34577,
+    amount: 345770,
     status: 'pending',
     date: '2023-08-05',
   },
@@ -108,12 +114,6 @@ const invoices = [
     amount: 54246,
     status: 'pending',
     date: '2023-07-16',
-  },
-  {
-    customer_id: customers[6].id,
-    amount: 666,
-    status: 'pending',
-    date: '2023-06-27',
   },
   {
     customer_id: customers[3].id,
@@ -141,7 +141,7 @@ const invoices = [
   },
   {
     customer_id: customers[5].id,
-    amount: 8945,
+    amount: 8940,
     status: 'paid',
     date: '2023-06-03',
   },
